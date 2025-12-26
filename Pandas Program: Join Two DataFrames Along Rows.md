@@ -26,7 +26,7 @@ print(d1)
 print("-------------------------------------")
 print(d2)
 print("\nJoin the said two dataframes along columns:")
-result = pd.concat([d1,d2],axis=0)
+result = pd.concat([d1,d2],axis=1)
 print(result)
 ~~~
 
