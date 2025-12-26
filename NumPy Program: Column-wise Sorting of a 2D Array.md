@@ -14,15 +14,18 @@ To write a **NumPy** program that sorts the elements in each column of a given 2
 ## 🧾 Program
 ~~~
 import numpy as np
-n,m=map(int,input().split())
-ar=np.array([list(map(int,input().split()))for i in range(n)])
-c=np.sum(ar,axis=0)
-r=np.prod(c)
-print(r)
+l= eval(input())
+print("Given array")
+a=np.array(l)
+print('',a)
+print()
+a=np.sort(a)
+print(a)
 ~~~
 
 ## Output
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/ab8624ae-fcdf-42c7-8e03-7054a0a096bd" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/50dd6ecf-5fc3-4267-a692-7b5d873fc345" />
+
 
 ## Result
 Thus, the program has been executed successfully.
